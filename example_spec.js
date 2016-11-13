@@ -20,7 +20,7 @@ describe('angularjs homepage', function() {
 
     it('should list todos', function() {
       expect(todoList.count()).toEqual(2);
-      expect(todoList.get(1).getText()).toEqual('build an 9999');
+      expect(todoList.get(1).getText()).toEqual('build an 999988');
     });
 
     it('should add a todo', function() {
